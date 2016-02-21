@@ -1,5 +1,5 @@
 SELECT
-    ROUND(MAX(long_w),4) AS SUM_LAT
+    ROUND(MAX(long_w),4) AS long_w
 FROM
     station
 WHERE
